@@ -1,11 +1,10 @@
 import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import { red } from "@mui/material/colors";
 
 const Sidebar = () => {
   return (
     <div>
-      <TwitterIcon />
+      <TwitterIcon style={{ color: "white" }} className="ml-8 scale-125" />
     </div>
   );
 };

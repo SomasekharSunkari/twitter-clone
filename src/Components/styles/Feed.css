@@ -1,0 +1,7 @@
+.homw-top {
+  color: white;
+  /* border-right: 0.5px solid slategray; */
+  border-bottom: 0.5px solid slategray;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
