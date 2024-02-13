@@ -12,13 +12,24 @@ body {
 .maincomponent {
   display: flex;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .maincomponent .sidebar__compo {
-  flex: 0.3;
+  flex: 0.2;
 }
 .maincomponent .feed__compo {
-  flex: 0.4;
+  flex: 0.5;
 }
 .maincomponent .wid__compo {
   flex: 0.3;
 }
+/* @media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .maincomponent .feed__compo {
+    flex: 0.6;
+  }
+  .maincomponent .wid__compo {
+    flex: 0.2;
+  }
+} */

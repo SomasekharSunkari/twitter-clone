@@ -1,7 +1,62 @@
 .homw-top {
-  color: white;
+  color: white !important;
   /* border-right: 0.5px solid slategray; */
-  border-bottom: 0.5px solid slategray;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  /* border-bottom: 0.5px solid slategray !important; */
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  padding: 10px !important;
+  position: relative !important;
+  font-weight: lighter !important;
+
+  border-bottom-left-radius: 0 !important;
+  transition: all ease-in-out 2s;
+}
+.whathappeing {
+  color: white !important;
+  background-color: red !important;
+  border-color: red !important;
+  width: 90%;
+}
+.homw-top:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.homw-top.active {
+  color: slategray !important;
+  transition: transform ease-in-out 3s;
+}
+
+.homw-top.active::before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  border-radius: 4px;
+  height: 4px;
+  bottom: 1.3px;
+  background-color: rgb(4, 184, 255);
+  transition-delay: 3s;
+  transition: transform ease-in-out 3s;
+}
+
+.happen-input::placeholder {
+  font-size: 17px;
+}
+
+.happen-input {
+  width: 90%;
+  height: auto;
+  resize: none;
+}
+.happen-input::-webkit-slider-runnable-track {
+  display: hidden;
+}
+
+.postbtn {
+  background: rgb(5, 153, 211) !important;
+  color: white !important;
+  float: right !important;
+  position: absolute !important;
+  right: 0 !important;
+  border-radius: 20px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }

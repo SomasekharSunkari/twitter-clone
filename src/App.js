@@ -20,7 +20,7 @@ import Feed from "./Components/Feed";
 import RightSide from "./Components/RightSide";
 function App() {
   return (
-    <div className="maincomponent max-w-[1300px] pt-3 ml-auto mr-auto h-screen bg-black  ">
+    <div className="maincomponent max-w-[1300px]  ml-auto mr-auto h-screen bg-black  ">
       <div className="sidebar__compo border-r-[.2px] border-slate-700 p-4">
         {/* Twitter Fullstack app clone creation */}
         {/* Sideabar */}
@@ -39,7 +39,7 @@ function App() {
         <Button className="sidebar__twittebutton ">Post</Button>
       </div>
       {/* Tweets */}
-      <div className="feed__compo border-r-[.2px] border-slate-700">
+      <div className="feed__compo border-r-[.2px] border-slate-700 min-h-screen overflow-scroll">
         <Feed />
       </div>
 
