@@ -1,6 +1,7 @@
 body {
   --twitter-color: rgb(14, 151, 219);
   --text-color: white;
+  font-family: "Poppins", sans-serif !important;
 }
 .sidebar__twittebutton {
   background-color: var(--twitter-color) !important;

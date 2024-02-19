@@ -1,0 +1,9 @@
+.follow-card {
+  background-color: white !important;
+  color: rgb(26, 19, 19) !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  height: 30px !important;
+  text-transform: capitalize;
+  border-radius: 8px;
+}

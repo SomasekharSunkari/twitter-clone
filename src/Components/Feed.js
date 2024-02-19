@@ -91,6 +91,7 @@ const Feed = () => {
             AccoutName={item.AccoutName}
             Date={item.Date}
             summary={item.summary}
+            img={item.img}
           />
         ))}
       </div>

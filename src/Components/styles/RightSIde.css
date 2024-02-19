@@ -1,0 +1,16 @@
+.Subscribe-btn {
+  background-color: rgb(12, 164, 224) !important;
+  color: #ffffff !important;
+  margin-top: 8px !important;
+  border-radius: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: bold !important;
+  text-transform: capitalize;
+}
+.Subscribe-btn:hover {
+  background-color: rgba(12, 164, 224, 0.8) !important;
+}
+.top-in:focus {
+  outline: none;
+}

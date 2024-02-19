@@ -27,13 +27,13 @@ const Item = ({ logo, AccoutName, Date, summary, img }) => {
         <br />
         <img src={img} className="h-[450px] w-[70%] mx-auto" />
         <div className="flex w-[70%] mx-auto pt-5">
-          <ModeCommentOutlinedIcon className="flex-1 cursor-pointer" />
-          <SettingsBackupRestoreOutlinedIcon className="flex-1 cursor-pointer" />
-          <FavoriteBorderOutlinedIcon className="flex-1 cursor-pointer" />
-          <EqualizerOutlinedIcon className="flex-1 cursor-pointer" />
+          <ModeCommentOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
+          <SettingsBackupRestoreOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
+          <FavoriteBorderOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
+          <EqualizerOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
           <div className="flex-1 justify-self-end">
-            <BookmarkBorderOutlinedIcon className="cursor-pointer" />
-            <IosShareOutlinedIcon className="cursor-pointer" />
+            <BookmarkBorderOutlinedIcon className="cursor-pointer scale-75 text-slate-500" />
+            <IosShareOutlinedIcon className="cursor-pointer scale-75 text-slate-500" />
           </div>
         </div>
       </div>
