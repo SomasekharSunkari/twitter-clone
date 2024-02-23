@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Sidebar from "./Components/Sidebar";
+import PostAddOutlinedIcon from "@mui/icons-material/PostAddOutlined";
 import Sidebaroptions from "./Components/Sidebaroptions";
 import ExploreIcon from "@mui/icons-material/Explore";
 import HomeIcon from "@mui/icons-material/Home";
@@ -21,7 +22,7 @@ import RightSide from "./Components/RightSide";
 function App() {
   return (
     <div className="maincomponent max-w-[1300px]  ml-auto mr-auto h-screen bg-black  ">
-      <div className="sidebar__compo border-r-[.2px] border-slate-700 p-4">
+      <div className="sidebar__compo border-r-[.2px] border-slate-700 p-4 ">
         {/* Twitter Fullstack app clone creation */}
         {/* Sideabar */}
         <Sidebar />
@@ -37,6 +38,21 @@ function App() {
         {/* <Sidebaroptions name="X" Icon={XIcon} /> */}
         <Sidebaroptions name="More.." Icon={MoreHorizIcon} />
         <Button className="sidebar__twittebutton ">Post</Button>
+
+        {/* <Sidebaroptions className="post-icon-lap" Icon={PostAddOutlinedIcon} /> */}
+        <div className="w-14 h-14 ml-5 post-sm-btn hidden bg-blue-400 rounded-full relative">
+          <PostAddOutlinedIcon
+            style={{
+              color: "white",
+              cursor: "pointer",
+              transform: "scale(1.5)",
+              bacgroundColor: "red",
+              position: "absolute",
+              left: "16px",
+              top: "15px",
+            }}
+          />
+        </div>
       </div>
       {/* Tweets */}
       <div className="feed__compo border-r-[.2px] border-slate-700 min-h-screen overflow-scroll">
