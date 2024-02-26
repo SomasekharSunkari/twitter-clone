@@ -26,17 +26,19 @@ function App() {
         {/* Twitter Fullstack app clone creation */}
         {/* Sideabar */}
         <Sidebar />
-        <Sidebaroptions name="Home" Icon={HomeIcon} />
-        <Sidebaroptions name="Explore" Icon={ExploreIcon} />
-        <Sidebaroptions name="Notifications" Icon={NotificationsIcon} />
-        <Sidebaroptions name="Messages" Icon={LocalPostOfficeIcon} />
-        <Sidebaroptions name="Grok" Icon={TextSnippetIcon} />
-        <Sidebaroptions name="List" Icon={DvrIcon} />
-        <Sidebaroptions name="Bookmarks" Icon={BookmarksIcon} />
-        <Sidebaroptions name="Communities" Icon={PeopleIcon} />
-        {/* <Sidebaroptions name="Profile" Icon={AccountCircleOutlinedIcon} /> */}
-        {/* <Sidebaroptions name="X" Icon={XIcon} /> */}
-        <Sidebaroptions name="More.." Icon={MoreHorizIcon} />
+        <div className="options">
+          <Sidebaroptions name="Home" Icon={HomeIcon} />
+          <Sidebaroptions name="Explore" Icon={ExploreIcon} />
+          <Sidebaroptions name="Notifications" Icon={NotificationsIcon} />
+          <Sidebaroptions name="Messages" Icon={LocalPostOfficeIcon} />
+          <Sidebaroptions name="Grok" Icon={TextSnippetIcon} />
+          <Sidebaroptions name="List" Icon={DvrIcon} />
+          <Sidebaroptions name="Bookmarks" Icon={BookmarksIcon} />
+          <Sidebaroptions name="Communities" Icon={PeopleIcon} />
+          {/* <Sidebaroptions name="Profile" Icon={AccountCircleOutlinedIcon} /> */}
+          {/* <Sidebaroptions name="X" Icon={XIcon} /> */}
+          <Sidebaroptions name="More.." Icon={MoreHorizIcon} />
+        </div>
         <Button className="sidebar__twittebutton ">Post</Button>
 
         {/* <Sidebaroptions className="post-icon-lap" Icon={PostAddOutlinedIcon} /> */}

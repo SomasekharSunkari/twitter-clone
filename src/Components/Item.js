@@ -5,7 +5,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import EqualizerOutlinedIcon from "@mui/icons-material/EqualizerOutlined";
 import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import IosShareOutlinedIcon from "@mui/icons-material/IosShareOutlined";
-
+import "../Components/styles/Item.css";
 const Item = ({ logo, AccoutName, Date, summary, img }) => {
   return (
     <>
@@ -25,7 +25,7 @@ const Item = ({ logo, AccoutName, Date, summary, img }) => {
           </div>
         </div>
         <br />
-        <img src={img} className="h-[450px] w-[70%] mx-auto" />
+        <img src={img} className="h-[450px] w-[70%] mx-auto img-main" />
         <div className="flex w-[70%] mx-auto pt-5">
           <ModeCommentOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
           <SettingsBackupRestoreOutlinedIcon className="flex-1 cursor-pointer scale-75 text-slate-500" />
