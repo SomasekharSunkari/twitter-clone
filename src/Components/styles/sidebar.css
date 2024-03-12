@@ -3,6 +3,9 @@
     display: none;
   }
 }
+.sidebaroptions:hover {
+  background: rgba(63, 62, 62, 0.436) !important;
+}
 /* .icons-side {
   margin: 20px !important;
 } */

@@ -3,13 +3,7 @@ body {
   --text-color: white;
   font-family: "Poppins", sans-serif !important;
 }
-.sidebar__twittebutton {
-  background-color: var(--twitter-color) !important;
-  color: var(--text-color) !important;
-  border-radius: 30px !important;
-  width: 200px !important;
-  margin-top: 5px !important;
-}
+
 .post-icon-lap {
   display: none !important;
 }
@@ -78,13 +72,7 @@ body {
   .maincomponent .wid__compo {
     display: none;
   }
-  .maincomponent .sidebar__compo .options > :nth-child(even) {
-    /* display: none; */
-  }
-  .maincomponent .sidebar__compo .options > :nth-child(odd) {
-  }
-  .maincomponent .sidebar__compo .options {
-  }
+
   /* .maincomponent .sidebar__compo {
     flex: 0.1;
   }

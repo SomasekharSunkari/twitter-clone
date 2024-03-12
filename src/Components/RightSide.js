@@ -4,12 +4,15 @@ import "../Components/styles/RightSIde.css";
 import Trending from "./Trending";
 import WhoToFollow from "./WhoToFollow";
 import Trendingdata from "../Components/data/Trendingdata";
+import SearchIcon from "@mui/icons-material/Search";
 const RightSide = () => {
   return (
     <div className="overflow-y-scroll overflow-x-hidden h-full ">
-      <div className="w-[90%]">
+      <div className=" flex w-[90%]  content-center bg-slate-800 ml-2 rounded-full pl-2 p-0.5 hover:cursor-pointer mt-2 ">
+        <SearchIcon className="text-slate-400 self-center mx-1 searchicon" />
+
         <input
-          className="mx-auto  top-0 sticky top-in block w-[98%] ml-3 mt-3 bg-slate-800 p-2 rounded-full text-sm pl-4 text-white ring-0 outline-3 border-none outline-blue-500 "
+          className=" SearchIn   p-2 rounded-full text-sm bg-slate-800  text-white  outline-none  "
           placeholder="Search.."
         />
       </div>

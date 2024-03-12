@@ -33,7 +33,7 @@ const Feed = () => {
   return (
     <div>
       <div>
-        <div className="sticky top-0  backdrop-blur-lg   flex border-b-[.5px] border-slate-500 ">
+        <div className=" top-0 sticky mt-1   backdrop-blur-lg   flex border-b-[.5px] border-slate-500 ">
           <Button
             className="flex-1 homw-top  active"
             data-top-btn="foryou"

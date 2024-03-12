@@ -14,3 +14,6 @@
 .top-in:focus {
   outline: none;
 }
+.SearchIn:focus .searchicon {
+  color: blue !important;
+}

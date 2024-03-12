@@ -1,0 +1,8 @@
+.sidebar__twittebutton {
+  background-color: var(--twitter-color) !important;
+  color: var(--text-color) !important;
+  border-radius: 30px !important;
+  width: 200px !important;
+  margin-top: 5px !important;
+  padding: 10px 29px 10px 29px !important;
+}
